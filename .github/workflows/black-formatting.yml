@@ -20,3 +20,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           black: true
           auto_fix: true
+          commit_message: 'Fixed code style with ${linter}'
+          git_name: 'MarvinRHCS'
+          git_email: 'marvin.rh.robot@gmail.com'
