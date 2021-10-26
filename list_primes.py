@@ -4,12 +4,8 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-
-
 def list_primes(upper):
     for number in range(2, upper):
         if is_prime(number):
-            print(f"{number} is prime")
-
-
+            print(f'{number} is prime')
 list_primes(10)
